@@ -61,40 +61,17 @@ Artist,Title,Duration
 ---
 
 ## Notes
+Scroll manually: The site only loads visible tracks. Scroll slowly to the bottom.
 
-Yandex Music uses **virtualized lists**, which means tracks only appear in the DOM when you scroll.
+Auto-scans: Checks the page every 300ms. No duplicates.
 
-Because of this you need to scroll the playlist before capturing all tracks.
+Reliable: Uses URLs (/track/...), not CSS classes, to survive site updates.
+
+Done? Click "Finalize capture" at the bottom to download.
 
 ---
 
-## Support the project
 
-If this tool helped you, consider supporting development.
-
-### Crypto donations
-
-**TON**
-
-```
-UQDUoyQkq99JbeA7lFRivIaCzsNxSowntmTnlRAu8fDU0qvi
-```
-
-**ETH (ERC20)**
-
-```
-0x211b376c20c67942a95ba235aef8611cec26b280
-```
-
-**USDT (TRC20)**
-
-```
-TMu2MLDVnjogZjL6K3w5qiBnNePTXNhpNg
-```
-
-Thank you for the support ❤️
-
-⭐ If you like this project, please star the repository.
 
 ---
 
@@ -104,7 +81,7 @@ Thank you for the support ❤️
 
 Скрипт для сбора треков из **плейлистов Яндекс Музыки** через DevTools Console.
 
-Работает с виртуализированными списками сайта и позволяет экспортировать треки в:
+Работает с виртуализированными списками сайта в новом дизайне (на июль 2026) и позволяет экспортировать треки в:
 
 - TXT
 - CSV
@@ -153,34 +130,10 @@ CSV
 
 ## Примечание
 
-Сайт Яндекс Музыки использует **виртуализацию списка**, поэтому треки появляются в DOM только при прокрутке.
+Крутите вручную: Сайт грузит только видимые треки. Медленно пролистайте список до конца.
 
-Чтобы собрать все треки, нужно пролистать плейлист.
+Автосканирование: Скрипт сам собирает данные каждые 300 мс. Дубликаты исключены.
 
----
+Надёжность: Ищет по ссылкам (/track/...), а не по классам, поэтому не сломается при обновлении дизайна.
 
-## Поддержать проект
-
-Если скрипт оказался полезным, вы можете поддержать развитие проекта.
-
-### Криптодонаты
-
-**TON**
-
-```
-UQDUoyQkq99JbeA7lFRivIaCzsNxSowntmTnlRAu8fDU0qvi
-```
-
-**ETH (ERC20)**
-
-```
-0x211b376c20c67942a95ba235aef8611cec26b280
-```
-
-**USDT (TRC20)**
-
-```
-TMu2MLDVnjogZjL6K3w5qiBnNePTXNhpNg
-```
-
-Спасибо за поддержку ❤️
+Как скачать: Когда дойдёте до конца, нажмите «Finalize capture» для получения файла.
