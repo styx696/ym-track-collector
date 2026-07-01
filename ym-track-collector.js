@@ -197,7 +197,7 @@
             <button id="ym-dl-csv">Download .csv</button>
             `
       }
-      <div class="f">tool by <span>idaniil24</span></div>
+      <div class="f">ymtool</div>
     `;
 
     if(running){
